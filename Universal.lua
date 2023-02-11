@@ -49,6 +49,8 @@ mt.__index = newcclosure(function(Self, Key, ...)
 	return OldIndex(Self, Key, ...)
 end)
 
+setreadonly(mt, true)
+
 
 
 --[[MAKE GUI]]--
