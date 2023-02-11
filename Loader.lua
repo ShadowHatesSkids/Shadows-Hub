@@ -5,7 +5,7 @@ local Universal = "https://raw.githubusercontent.com/ShadowHatesSkids/Shadows-Hu
 local PID = game.PlaceId
 
 if not GamesList[PID] then
-    loadstring(Universal)
+    return loadstring(Universal)
 else
-    loadstring(GamesList[PID])
+    return loadstring(GamesList[PID])
 end
