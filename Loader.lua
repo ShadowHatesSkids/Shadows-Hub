@@ -6,5 +6,5 @@ local Universal = "https://raw.githubusercontent.com/ShadowHatesSkids/Shadows-Hu
 --if SupportedGames[PID] then
    -- loadstring(game:HttpGet(SupportedGames[PID]))
 --else
-    loadstring(game:HttpGet(Universal))
+    loadstring(game:HttpGet(Universal))()
 --end
