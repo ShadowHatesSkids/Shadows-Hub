@@ -1,6 +1,6 @@
 local SupportedGames = {}
 
-local PID = game.PlaceId
+--local PID = game.PlaceId
 local Universal = "https://raw.githubusercontent.com/ShadowHatesSkids/Shadows-Hub/main/Universal.lua"
 
 --if SupportedGames[PID] then
